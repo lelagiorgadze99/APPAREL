@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+
+/* font-family: 'Josefin Sans', sans-serif; */
+
+body {
+  background: linear-gradient(150.03deg, #ffffff 0%, #fff4f4 84.51%);
+  font-family: "Josefin Sans", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* header section */
+.logo {
+  margin-left: 34px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: 11px;
+  color: #423a3a;
+  font-weight: 600;
+}
+.colored-title {
+  font-weight: 300;
+  color: #ce9898;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  color:#CE9898;
+}
+.text-div {
+  padding: 64px 32px 150px 32px;
+  text-align: center;
+}
+input {
+  border: 1px solid #ce9898;
+  border-radius: 28px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 11px 100px 9px 24px;
+}
+.input-div {
+  position: relative;
+}
+button {
+  border: none;
+  background: linear-gradient(135deg, #f8bfbf 0%, #ee8b8b 100%);
+  box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+  border-radius: 28px;
+  padding: 15px 28px;
+  position: absolute;
+  right: 0;
+}
+@media (min-width: 1440px) {
+  body {
+    background: url(/assets/bg-pattern-desktop.svg) no-repeat;
+    background: linear-gradient(221.42deg, #fff1f1 2.6%, #ffffff 96.36%) no-repeat;
+    background: url(/assets/hero-desktop.jpg)no-repeat right 0;
+  }
+  .mobile-hero{
+    display: none;
+  }
+.container{
+    width: 445px;
+    margin-left: 165px;
+}
+h1{
+    font-size: 64px;
+    line-height: 71px;
+    text-align: start;
+}
+.colored-title{
+    line-height: 64px;
+}
+p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    text-align: start;
+}
+input{
+    padding: 15px 309px 13px 32px;
+}
+button{
+    padding: 19px 46px;
+}
+.logo{
+    margin-left: 0;
+    margin-top: 75px;
+}
+}
